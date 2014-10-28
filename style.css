@@ -1,0 +1,53 @@
+.parallax {
+  perspective: 1px;
+  height: 200vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+
+}
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+.background {
+  background: url(public/hi-res-rain-smaller.png);
+  min-width: 100%;
+  min-height: 600px;
+  margin: auto 0;
+}
+.rain-drops {
+  background: url(public/rain-drops.png);
+  min-width: 100%;
+  min-height: 600px;
+}
+.header-text {
+  margin-top: 100px;
+  color: white;
+}
+.sitr {
+  font-family: 'Lobster', cursive;
+  margin-bottom: -10px;
+  font-size: 80px;
+}
+.new-row {
+  background-color: black;
+  height: 800px;
+}
+h1 {
+  color: white;
+}
