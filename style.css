@@ -1,4 +1,4 @@
-.parallax {
+/*.parallax {
   perspective: 1px;
   height: 200vh;
   overflow-x: hidden;
@@ -24,7 +24,7 @@
   height: 100vh;
   transform-style: preserve-3d;
 }
-.background {
+*/.background {
   background: url(public/hi-res-rain-smaller.png);
   min-width: 100%;
   min-height: 600px;
@@ -34,6 +34,7 @@
   background: url(public/rain-drops.png);
   min-width: 100%;
   min-height: 600px;
+  position: absolute;
 }
 .header-text {
   margin-top: 100px;
