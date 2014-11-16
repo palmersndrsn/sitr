@@ -26,7 +26,8 @@ img {
   background-color: black;
 }
 .main-img {
-  margin-top: 50px;
+  margin: 0px 30px 50px 30px;
+
 }
 .mission {
   text-align: center;
@@ -50,7 +51,7 @@ p {
   position: absolute;
 }
 .tpoo {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Antic Didone', serif;
   margin-bottom: 20px;
 }
 .twitter-box{
@@ -68,8 +69,11 @@ p {
   font-size: 60px;
 }
 .whsc {
-  padding-bottom: 20px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  /*padding-bottom: 20px;*/
+/*  margin-top: 30px;*/
+  padding: 15px;
+  font-family: 'Antic Didone', serif;
+  /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
   color: white;
 }
 .sunny-right {
