@@ -42,7 +42,6 @@ img {
 }
 p {
   font-family: 'Roboto', sans-serif;
-  text-align: left;
 }
 .rain-drops {
   background: url(public/rain-drops.png);
