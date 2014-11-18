@@ -42,7 +42,6 @@ img {
 }
 p {
   font-family: 'Roboto', sans-serif;
-  text-align: left;
 }
 .rain-drops {
   background: url(public/rain-drops.png);
@@ -68,6 +67,12 @@ p {
   margin-bottom: -10px;
   font-size: 60px;
 }
+.sunny-right {
+  margin: 50px;
+  text-align: center;
+  background-color: rgba(255,255,255,.2);
+
+}
 .whsc {
   /*padding-bottom: 20px;*/
 /*  margin-top: 30px;*/
@@ -75,10 +80,4 @@ p {
   font-family: 'Antic Didone', serif;
   /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
   color: white;
-}
-.sunny-right {
-  margin: 50px;
-  text-align: center;
-  background-color: rgba(255,255,255,.2);
-
 }
