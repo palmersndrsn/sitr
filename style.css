@@ -52,7 +52,7 @@ p {
 }
 .tpoo {
   font-family: 'Antic Didone', serif;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 .twitter-box{
   background-color: rgba(255,255,255,.2);
@@ -60,6 +60,9 @@ p {
   padding-bottom: 50px;
   margin: 50px;
   text-align: center;
+}
+#quick-bio {
+  margin-top: -40px;
 }
 .sitr {
   text-align: center;
